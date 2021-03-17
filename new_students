@@ -6422,3 +6422,1509 @@ $(document).ready(function() {
 
             </div>
         </div>
+<div id="sp-content-outer" class="gb-section-parent">
+            <div id="sp-content" class="gb-section ui-clear">
+                <div class="sp column one border-box hp-region-c-sp-col-1 noprint" data-header-text-color="Gray">
+                    <div class='ui-widget app navigation pagenavigation'>
+<div class="ui-widget-header">
+<h1>
+Report a Concern</h1>
+</div>
+<div class='ui-widget-detail'>
+<script type="text/javascript">
+$(document).ready(function () {
+   CheckScript('', staticURL + 'GlobalAssets/Scripts/sw-ada.js');
+   WCM.ADA.tree = new WCM.ADA.Tree();
+});
+</script><ul class="page-navigation">
+<li id="pagenavigation-12630" class="">
+<a href="/Page/12630"
+><span>General Concerns</span>
+</a>
+</li>
+<li id="pagenavigation-10304" class="">
+<a href="/Page/10304"
+><span>Bullying</span>
+</a>
+</li>
+<li id="pagenavigation-12648" class="">
+<a href="/Page/12648"
+><span>Civil Rights Resources</span>
+</a>
+</li>
+<li id="pagenavigation-10003" class="">
+<a href="/Page/10003"
+><span>Discrimination</span>
+</a>
+</li>
+<li id="pagenavigation-12629" class="">
+<a href="/Page/12629"
+><span>Sexual Harassment</span>
+</a>
+</li>
+<li id="pagenavigation-12628" class="active">
+<a href="/Page/12628"
+><span>Special Concerns Complaint Process</span>
+</a>
+</li></ul>
+</div>
+<div class="ui-widget-footer">
+</div>
+</div>
+
+                </div>
+                <div class="sp column two border-box hp-region-d-sp-col-2" data-header-text-color="Gray">
+                    <!-- Start Centricity Content Area --><div id="sw-content-layout-wrapper" class="ui-sp ui-print" role="main"><a id="sw-maincontent" name="sw-maincontent" tabindex="-1"></a><div id="sw-content-layout1"><div id="sw-content-container1" class="ui-column-one region"><div id='pmi-21147'>
+
+
+
+<div id='sw-module-168370'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '6154';
+            var PageID = '12628';
+            var RenderLoc = '0';
+            var MIID = '16837';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-16837" >
+<div class="ui-widget app tabbed-widget">
+	<div class="ui-widget-header">
+		<h1>Special Concerns Complaint Process</h1>
+	</div>
+	<div class="ui-widget-detail">
+        <div class="twb-tabs" id="twb-tabs-21147">
+            <ul role="tablist"></ul>
+        </div>
+        <div class="twb-panels" id="twb-panels-21147">
+            <ul role="none"></ul>
+        </div>
+    </div>
+</div>
+
+<style type="text/css">
+#pmi-21147:before {
+    content: "desktop";
+    display: none;
+}
+@media (max-width: 1023px) {
+    #pmi-21147:before {
+        content: "1023";
+    }
+}
+@media (max-width: 767px) {
+    #pmi-21147:before {
+        content: "767";
+    }
+}
+@media (max-width: 639px) {
+    #pmi-21147:before {
+        content: "639";
+    }
+}
+@media (max-width: 479px) {
+    #pmi-21147:before {
+        content: "479";
+    }
+}
+</style>
+
+<script type="text/javascript" src="https://extend.schoolwires.com/creative/module_library/tabbed-widget-builder/js/tabbed-widget-builder.v2.min.js"></script>
+<script type="text/javascript">
+
+$(function() {
+	$("#pmi-21147 .ui-widget.app.tabbed-widget").CsTabbedWidget({
+    	"PMI": 21147,
+"TextColor": "#FFFFFF",
+        "ActiveTextColor": "#FFFFFF",
+        "TabColor": "#007DC5",
+        "ActiveTabColor": "#F47E32",
+        "AccordionBreakpoint": "639"
+});
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function (){
+$(".tag-list li a").keypress(function(e) { if(e.which == 13) { $(this).click();   }});
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+  setTimeout(function(){ $("#module-content-"+ MIID +"").find('[tabindex]:first').focus(); }, 200);
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-21141'>
+
+
+
+<div id='sw-module-168310'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '6154';
+            var PageID = '12628';
+            var RenderLoc = '0';
+            var MIID = '16831';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-16831" >
+<div class="ui-widget app flexpage">
+	<div class="ui-widget-header">
+		<h1>Complaint Process</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+        	<span><span ><h2>File a Complaint for Discrimination or Sexual Harassment</h2>
+<p>Some types of concerns dictate a certain response according to district policy/procedure, state law, and/or federal law.</p>
+<p>If you believe that you or your student have experienced <a href="https://www.kent.k12.wa.us/Page/10003">unlawful discrimination, discriminatory harassment</a>, or <a href="https://www.kent.k12.wa.us/Page/12629">sexual harassment</a> at school, you have the right to file a complaint.</p>
+<p>Before filing a complaint, you can&nbsp;report your concerns&nbsp;to your school&rsquo;s <a href="https://www.kent.k12.wa.us/domain/5653">principal</a> or designated Kent School District (KSD) staff. This is often the fastest way to resolve your concerns.</p>
+<ul>
+<li><strong>Civil Rights Compliance Coordinator</strong>: Israel Vela, (253) 373-7134, <a href="mailto:Israel.Vela@kent.k12.wa.us">Israel.Vela@kent.k12.wa.us</a></li>
+<li><strong>Title IX Coordinator:</strong> Wade Barringer, (253) 373-7203, <a href="mailto:Wade.Barringer@kent.k12.wa.us">Wade.Barringer@kent.k12.wa.us</a></li>
+<li><strong>Section 504 Coordinator:</strong> Cheri Simpson, (253) 373-7235, <a href="mailto:Cheri.Simpson@kent.k12.wa.us">Cheri.Simpson@kent.k12.wa.us</a></li>
+</ul>
+<p>There are many options for filing a complaint.</p>
+<ul>
+<li>Complaint to Kent School District</li>
+<li>Complaint to&nbsp;Office of Superintendent of Public Instruction (OSPI)</li>
+<li>Other discrimination complaint options</li>
+</ul></span></span>
+        </div>
+		<div class="clear"></div>
+	</div>
+</li>
+</ul>
+</div>
+	<div class="ui-widget-footer">
+		
+			
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function (){
+$(".tag-list li a").keypress(function(e) { if(e.which == 13) { $(this).click();   }});
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+  setTimeout(function(){ $("#module-content-"+ MIID +"").find('[tabindex]:first').focus(); }, 200);
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-21148'>
+
+
+
+<div id='sw-module-168380'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '6154';
+            var PageID = '12628';
+            var RenderLoc = '0';
+            var MIID = '16838';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-16838" >
+<div class="ui-widget app flexpage">
+	<div class="ui-widget-header">
+		<h1>Kent School District</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+        	<span><span ><h2>Complaint to Kent School District</h2>
+<p>In most cases, complaints must be filed within one year from the date of the incident or conduct that is the subject of the complaint.</p>
+<h3>Step 1: Write Out Your Complaint</h3>
+<p>A complaint must be in writing. Be sure to describe the conduct or incident, explain why you believe discrimination, discriminatory harassment, or sexual harassment has taken place, and describe what actions you believe the district should take to resolve the problem.</p>
+<p>Send your written complaint by mail, email, or hand-deliver to the superintendent or civil rights compliance coordinator.</p>
+<ul>
+<li><strong>Email: </strong><a href="mailto:Israel.Vela@kent.k12.wa.us">Israel.Vela@kent.k12.wa.us</a></li>
+<li><strong>Mail or Hand Deliver:</strong> Kent School District, 12033 SE 256th Street,&nbsp;Kent, WA 98030</li>
+</ul>
+<h2>Step 2: KSD Investigates Your Complaint</h2>
+<p>Once Kent School District receives your written complaint, the coordinator will give you a copy of the complaint procedure and make sure a prompt and thorough investigation takes place. The superintendent or designee will respond to you in writing within 30 calendar days&mdash;unless you agree on a different time period.</p>
+<p>If your complaint involves exceptional circumstances that demand a lengthier investigation, the district will notify you in writing to explain why staff need a time extension and the new date for their written response.</p>
+<h3>Step 3: KSD Responds to Your Complaint</h3>
+<p>In its written response, Kent School District will include:</p>
+<ul>
+<li>A summary of the results of the investigation.</li>
+<li>A determination of whether or not the district failed to comply with civil rights laws.</li>
+<li>Notification that you can appeal this determination.</li>
+<li>Any measures necessary to bring the district into compliance with civil rights laws.</li>
+</ul>
+<p>Corrective measures will be put into effect within 30 calendar days after this written response&mdash;unless you agree to a different time period.</p>
+<h2>Appeal to the Kent School Board</h2>
+<p>If you disagree with Kent School District&rsquo;s decision, you may appeal to the <a href="https://www.kent.k12.wa.us/Page/3746">Kent School Board of Directors</a>.</p>
+<ul>
+<li>You must file a notice of appeal in writing to the secretary of the school board within 10 calendar days after you received the school district&rsquo;s response to your complaint.</li>
+<li>The school board will schedule a hearing within 20 calendar days after they received your appeal unless you agree on a different timeline.</li>
+<li>The school board will send you a written decision within 30 calendar days after the district received your notice of appeal. The school board&rsquo;s decision will include information about how to <a href="https://www.k12.wa.us/about-ospi/contact-us/how-file-complaint" target="_blank" rel="noopener noreferrer">file a formal complaint with the Office of Superintendent of Public Instruction (OSPI).</a></li>
+</ul></span></span>
+        </div>
+		<div class="clear"></div>
+	</div>
+</li>
+</ul>
+</div>
+	<div class="ui-widget-footer">
+		
+			
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function (){
+$(".tag-list li a").keypress(function(e) { if(e.which == 13) { $(this).click();   }});
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+  setTimeout(function(){ $("#module-content-"+ MIID +"").find('[tabindex]:first').focus(); }, 200);
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-21149'>
+
+
+
+<div id='sw-module-168390'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '6154';
+            var PageID = '12628';
+            var RenderLoc = '0';
+            var MIID = '16839';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-16839" >
+<div class="ui-widget app flexpage">
+	<div class="ui-widget-header">
+		<h1>OSPI</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+        	<span><span ><h2>Complaint to OSPI</h2>
+<p>If you do not agree with the school district&rsquo;s appeal decision, state law provides the option to&nbsp;<a href="https://www.k12.wa.us/about-ospi/contact-us/how-file-complaint" target="_blank" rel="noopener noreferrer">file a formal complaint with the Office of Superintendent of Public Instruction (OSPI).</a></p>
+<p>This is a separate complaint process that can take place if one of these two conditions has occurred:</p>
+<ul>
+<li>You have completed the district&rsquo;s complaint and appeal process,</li>
+<li>The District has not followed the complaint and appeal process correctly.</li>
+</ul>
+<p>You have 20 calendar days to file a complaint to OSPI from the day you received the decision on your appeal. You can send your written complaint to the Equity and Civil Rights Office at OSPI.</p>
+<ul>
+<li><strong>Email:&nbsp;</strong><a href="mailto:Equity@k12.wa.us">Equity@k12.wa.us</a></li>
+<li><strong>Fax:</strong>&nbsp;360-664-2967</li>
+<li><strong>Mail:&nbsp;</strong>PO Box 47200, Olympia, WA 98504-7200</li>
+<li><strong>Hand Deliver:</strong>&nbsp;600 Washington St. S.E., Olympia, WA 98504-7200</li>
+</ul>
+<p>For more information, contact OSPI&rsquo;s Equity and Civil Rights Office:</p>
+<ul>
+<li>(360) 725-6162</li>
+<li>TTY: (360) 664-3631</li>
+<li><a href="mailto:equity@k12.wa.us">equity@k12.wa.us</a></li>
+</ul></span></span>
+        </div>
+		<div class="clear"></div>
+	</div>
+</li>
+</ul>
+</div>
+	<div class="ui-widget-footer">
+		
+			
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function (){
+$(".tag-list li a").keypress(function(e) { if(e.which == 13) { $(this).click();   }});
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+  setTimeout(function(){ $("#module-content-"+ MIID +"").find('[tabindex]:first').focus(); }, 200);
+}
+</script>
+</div>
+
+</div></div>
+<div id='pmi-21150'>
+
+
+
+<div id='sw-module-168400'>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var DomainID = '6154';
+            var PageID = '12628';
+            var RenderLoc = '0';
+            var MIID = '16840';
+
+            //added to check to make sure moderated content doesn't bleed through the dialog
+            if ($('#dialog-overlay-WindowLargeModal-body.moderateContent').length > 0) {
+                $("#module-content-" + MIID).find(".ui-widget-detail").find(".ui-article").append("<p>&nbsp;</p>");
+            }
+        });
+    </script>
+
+    <script type="text/javascript">$(document).ready(function() {CheckScript('ModuleView');CheckScript('Mustache');
+ });</script>
+    
+    <div id="module-content-16840" >
+<div class="ui-widget app flexpage">
+	<div class="ui-widget-header">
+		<h1>Other Options</h1>
+	</div>
+	
+	<div class="ui-widget-detail">
+		<ul class="ui-articles">
+<li>
+	<div class="ui-article">
+		<div class="ui-article-description">
+        	<span><span ><h2>Other Discrimination Complaint Options</h2>
+<h3><a href="http://www.ed.gov/ocr" target="_blank" rel="noopener noreferrer">Office for Civil Rights, U.S. Department of Education</a></h3>
+<ul>
+<li>206-607-1600</li>
+<li>TDD: 1-800-877-8339</li>
+<li><a href="mailto:OCR.Seattle@ed.gov">Seattle@ed.gov</a></li>
+</ul>
+<h3><a href="http://www.hum.wa.gov/" target="_blank" rel="noopener noreferrer">Washington State Human Rights Commission</a></h3>
+<ul>
+<li>1-800-233-3247</li>
+<li>TTY: 1-800-300-7525</li>
+</ul></span></span>
+        </div>
+		<div class="clear"></div>
+	</div>
+</li>
+</ul>
+</div>
+	<div class="ui-widget-footer">
+		
+			
+		
+		<div class="clear"></div>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function (){
+$(".tag-list li a").keypress(function(e) { if(e.which == 13) { $(this).click();   }});
+});
+function LoadGroupedData(container, MIID, PMI, groupYear, groupMonth, groupBy, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&EnableQuirksMode=0&ViewID=' + viewToUse + '&Tag=' + tag, container, 2, 'chkSidebar();');
+}
+function LoadData(container, MIID, PMI, flexDataID, groupYear, groupMonth, groupBy, targetView, tag) {
+  if(targetView !== undefined || targetView.Length() == 0){
+  //targetView looks at the hidden Detail View defined in the Builder View.
+      targetView = $('#hid-'+MIID+'-DetailView').val();
+   }
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&FlexDataID=' + flexDataID + '&GroupYear=' + groupYear + '&GroupMonth=' + groupMonth + '&GroupByField=' + groupBy + '&RenderLoc=0&FromRenderLoc=0&EnableQuirksMode=0&Tag=' + tag + '&ViewID=' + targetView, container, 2, 'chkSidebar();');
+}
+function LoadTaggedData(container, MIID, PMI, tag) {
+  //ViewToUse looks at the hidden Sidebar List View defined in the Builder View.
+  var viewToUse = "";
+    if($('#hid-'+MIID+'-SidebarListView').length > 0){
+      viewToUse = $("#hid-" + MIID + "-SidebarListView").val();
+    };
+  GetContent('https://www.kent.k12.wa.us//cms/UserControls/ModuleView/ModuleViewRendererWrapper.aspx?DomainID=6154&PageID=12628&ModuleInstanceID=' + MIID + '&PageModuleInstanceID=' + PMI + '&RenderLoc=0&FromRenderLoc=0&Tag=' + tag + '&EnableQuirksMode=0&ViewID='+viewToUse, container, 2, 'chkSidebar();');
+  setTimeout(function(){ $("#module-content-"+ MIID +"").find('[tabindex]:first').focus(); }, 200);
+}
+</script>
+</div>
+
+</div></div>
+</div><div class="clear"></div></div></div><!-- End Centricity Content Area -->
+                </div>
+            </div>
+        </div>
+        <div id="sp-global-icons-outer" class="gb-section-parent noprint">
+        	<div id="sp-global-icons" class="gb-section" data-icon-text-color="Gray"></div>
+        </div>
+	</main>
+    <footer class="noprint">
+    	<section id="gb-google-map-outer" class="gb-section-parent">
+			<div id="gb-google-map" aria-hidden="true"></div>
+		</section>
+        <section id="gb-footer-outer" class="gb-section-parent">
+			<div id="gb-footer" class="gb-section ui-clear" data-footer-text-color="Gray">
+				<p id="gb-footer-address">12033 SE 256th Street<span class="hide320">, </span><span class="gb-address">Kent, WA 98030</span><span id="gb-footer-contact"><span class="gb-footer-contact phone">253-373-7000</span><span class="gb-footer-contact fax"></span></span></p>
+                <p id="gb-footer-links">
+                	<a href="#" id="gb-google-map-toggle" role="button" aria-expanded="false" aria-controls="gb-google-map">View Google Map</a>
+                    <a href="/site/Default.aspx?PageType=15&SiteID=4&SectionMax=15&DirectoryType=6">Site Map</a>
+                </p>
+			</div>
+		</section>
+        <section id="gb-schoolwires-footer-outer" class="gb-section-parent">
+            <div id="gb-schoolwires-footer" class="gb-section border-box">
+                <div class="gb-schoolwires-footer left" data-show-disclaimer="true">
+                    <div class="gb-schoolwires-footer logo"></div>
+                    <div id="gb-schoolwires-footer-links-copyright">
+                        <div class="gb-schoolwires-footer links"></div>
+                        <div class="gb-schoolwires-footer copyright"></div>
+                    </div>
+                </div>
+                <div class="gb-schoolwires-footer right">
+                    <div id="gb-footer-disclaimer" class="true">
+                        <span>Successfully Preparing All Students For Their Futures</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</div>
+
+<script type="text/javascript">CreativeTemplate.MyStart();</script>
+<!-- BEGIN - STANDARD FOOTER -->
+<div id='sw-footer-outer'>
+<div id='sw-footer-inner'>
+<div id='sw-footer-left'></div>
+<div id='sw-footer-right'>
+<div id='sw-footer-links'>
+<ul>
+<li><a title='Click to email the primary contact' href='mailto:webadministrator@kent.k12.wa.us'>Questions or Feedback?</a> | </li>
+<li><a href='https://www.blackboard.com/blackboard-web-community-manager-privacy-statement' target="_blank">Blackboard Web Community Manager Privacy Policy (Updated)</a> | </li>
+<li><a href='https://help.blackboard.com/Terms_of_Use' target="_blank">Terms of Use</a></li>
+</ul>
+</div>
+<div id='sw-footer-copyright'>Copyright &copy; 2002-2021 Blackboard, Inc. All rights reserved.</div>
+<div id='sw-footer-logo'><a href='http://www.blackboard.com' title="Blackboard, Inc. All rights reserved.">
+<img src='https://www.kent.k12.wa.us/Static//GlobalAssets/Images/Navbar/blackboard_logo.png'
+ alt="Blackboard, Inc. All rights reserved."/>
+</a></div>
+</div>
+</div>
+</div>
+<!-- END - STANDARD FOOTER -->
+<script type="text/javascript">
+   $(document).ready(function(){
+      var beaconURL='https://analytics.schoolwires.com/analytics.asmx/Insert?AccountNumber=ZuOq8ZLCzGUr3TOjvvMmPQ%3d%3d&SessionID=2cfa12c6-7dad-421b-9b41-eac7d4bb8235&SiteID=4&ChannelID=65&SectionID=6154&PageID=12628&HitDate=3%2f17%2f2021+12%3a44%3a58+PM&Browser=Chrome+89.0&OS=WinNT&IPAddress=10.61.82.120';
+      try {
+         $.getJSON(beaconURL + '&jsonp=?', function(myData) {});
+      } catch(err) { 
+         // prevent site error for analytics
+      }
+   });
+</script>
+
+    <input type="hidden" id="hid-pageid" value="12628" />
+
+    
+
+    <div id='dialog-overlay-WindowMedium-base' class='ui-dialog-overlay-base' ><div id='WindowMedium' role='dialog' tabindex='-1'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowMedium-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowMedium-body' ></div><button class='ui-dialog-overlay-close' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowMedium");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowMedium-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowMedium-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-WindowSmall-base' class='ui-dialog-overlay-base' ><div id='WindowSmall' role='dialog' tabindex='-1'  class='ui-dialog-overlay small' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowSmall-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowSmall-body' ></div><button class='ui-dialog-overlay-close' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowSmall");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowSmall-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowSmall-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-WindowLarge-base' class='ui-dialog-overlay-base' ><div id='WindowLarge' role='dialog' tabindex='-1'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowLarge-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowLarge-body' ></div><button class='ui-dialog-overlay-close' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowLarge");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowLarge-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowLarge-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+
+    <div id='dialog-overlay-WindowMediumModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowMediumModal' role='dialog' tabindex='-1'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowMediumModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowMediumModal-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowMediumModal");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowMediumModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowMediumModal-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-WindowSmallModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowSmallModal' role='dialog' tabindex='-1'  class='ui-dialog-overlay small' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowSmallModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowSmallModal-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowSmallModal");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowSmallModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowSmallModal-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-WindowLargeModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowLargeModal' role='dialog' tabindex='-1'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowLargeModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowLargeModal-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowLargeModal");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowLargeModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowLargeModal-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-WindowXLargeModal-base' class='ui-dialog-overlay-base-modal' ><div id='WindowXLargeModal' role='dialog' tabindex='-1'  class='ui-dialog-overlay xlarge' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-WindowXLargeModal-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-WindowXLargeModal-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("WindowXLargeModal");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-WindowXLargeModal-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-WindowXLargeModal-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+
+    <div id='dialog-overlay-MyAccountSubscriptionOverlay-base' class='ui-dialog-overlay-base-modal' ><div id='MyAccountSubscriptionOverlay' role='dialog' tabindex='-1'  class='ui-dialog-overlay medium' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-MyAccountSubscriptionOverlay-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-MyAccountSubscriptionOverlay-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("MyAccountSubscriptionOverlay");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-MyAccountSubscriptionOverlay-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-MyAccountSubscriptionOverlay-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+
+    <div id='dialog-overlay-InsertOverlay-base' class='ui-dialog-overlay-base-modal' ><div id='InsertOverlay' role='dialog' tabindex='-1'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-InsertOverlay-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-InsertOverlay-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("InsertOverlay");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-InsertOverlay-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-InsertOverlay-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    <div id='dialog-overlay-InsertOverlay2-base' class='ui-dialog-overlay-base-modal' ><div id='InsertOverlay2' role='dialog' tabindex='-1'  class='ui-dialog-overlay large' ><div class='ui-dialog-overlay-title-bar' id='dialog-overlay-InsertOverlay2-title-bar' ></div><div class='ui-dialog-overlay-body' id='dialog-overlay-InsertOverlay2-body' ></div><button class='ui-dialog-overlay-close modal' title='Close' aria-label='Close' onclick='CloseDialogOverlay("InsertOverlay2");' ></button><div class='ui-dialog-overlay-footer' id='dialog-overlay-InsertOverlay2-footer' ></div></div></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#dialog-overlay-InsertOverlay2-base').appendTo('body');
+        
+        $('body').on('keydown', '.ui-dialog-overlay-base-modal, .ui-dialog-overlay, .ui-sw-alert', function (e) {
+            var swAlertOpen = $(".ui-sw-alert").length;
+            if (swAlertOpen > 1) {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    //get id of open alert
+                    var alertboxid = $('.ui-sw-alert').attr('id');
+                    //click ok or no
+                    if ($('#' + alertboxid + 'ok').length > 0) {
+                        $('#' + alertboxid + 'ok').click();
+                    } else {
+                        $('#' + alertboxid + 'no').click();
+                    }
+                }
+            } else {
+                if (e.keyCode == 27) {//escape key
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                    // Check if ESC was pressed on DatePicker
+                    var raisedByDatepicker = e.target.classList.contains("datepicker");
+                    if (!raisedByDatepicker) {
+                        e.stopImmediatePropagation();
+                        e.preventDefault();
+                        // Close Dialog
+                        $('.ui-dialog-overlay-close.modal:visible').last().click();
+                    } else {
+                        // Remove focus
+                        e.target.blur();
+                        e.target.classList.remove("focus");
+                    }
+                }
+            }
+        });
+ 		
+        
+
+    });
+</script>
+    
+    <div id="videowrapper" class="ui-helper-hidden">
+        <div id="videodialog" role="application">
+            <a id="videodialog-close" role="button" href="javascript:;" aria-label="Close Overlay" class="close-btn" onclick="closeVideoDialog();">CLOSE</a>
+            <div id="videodialog-video" ></div>
+            <div id="videodialog-foot" tabindex="0"></div>
+        </div>
+    </div>
+    <div id="attachmentwrapper" class="ui-helper-hidden">
+        <div id="attachmentdialog" role="application">
+            <a id="attachmentdialog-close" role="button" href="javascript:;" aria-label="Close Overlay" class="close-btn" onclick="closeAttachmentDialog();">CLOSE</a>
+            <div id="attachmentdialog-container"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            removeBrokenImages();
+            checkSidebar();
+            RemoveCookie();
+
+            $('div.bullet').attr('tabindex', '');
+
+            $('.navigation li.collapsible').each(function () {
+                if ($(this).find('ul').length == 0) {
+                    $(this).removeClass('collapsible');
+                }
+            });
+
+            // find page nav state cookie and add open chevron
+            var arrValues = GetCookie('SWPageNavState').split('~');
+
+            $.each(arrValues, function () {
+                if (this != '') {
+                    $('#' + this).addClass('collapsible').prepend("<div class='bullet collapsible' aria-label='Close Page Submenu'/>");
+                }
+            });
+
+            // find remaining sub menus and add closed chevron and close menu
+            $('.navigation li > ul').each(function () {
+                var list = $(this);
+
+                if (list.parent().hasClass('active') && !list.parent().hasClass('collapsible')) {
+                    // open sub for currently selected page                    
+                    list.parent().addClass('collapsible').prepend("<div class='bullet collapsible'aria-label='Close Page Submenu' />");
+                } else {
+                    if (list.parent().hasClass('collapsible') && !list.siblings('div').hasClass('collapsible')) {
+                        // open sub for page with auto expand
+                        list.siblings('div.expandable').remove();
+                        list.parent().prepend("<div class='bullet collapsible' aria-label='Close Page Submenu' />");
+                    }
+                }
+
+                if (!list.siblings('div').hasClass('collapsible')) {
+                    // keep all closed that aren't already set to open
+                    list.parent().addClass('expandable').prepend("<div class='bullet expandable' aria-label='Open Page Submenu' />");
+                    ClosePageSubMenu(list.parent());
+                } else {
+                    OpenPageSubMenu(list.parent());
+                }
+            });
+
+            // remove bullet from hierarchy if no-bullet set
+            $('.navigation li.collapsible').each(function () {
+                if ($(this).hasClass('no-bullet')) {
+                    if (!$(this).hasClass('navigationgroup')) { $(this).removeClass('collapsible'); }
+                    $(this).children('div.collapsible').remove();
+                }
+            });
+
+            $('.navigation li.expandable').each(function () {
+                if ($(this).hasClass('no-bullet')) {
+                    if (!$(this).hasClass('navigationgroup')) { $(this).removeClass('expandable'); }
+                    $(this).children('div.expandable').remove();
+                }
+            });
+
+            $('.navigation li:not(.collapsible,.expandable,.no-bullet)').each(function () {
+                $(this).prepend("<div class='bullet'/>");
+            });
+
+            $('.navigation li.active').parents('ul').each(function () {
+                if (!$(this).hasClass('page-navigation')) {
+                    OpenPageSubMenu($(this).parent());
+                }
+            });
+
+            // Set aria ttributes
+            $('li.collapsible').each(function () {
+                $(this).attr("aria-expanded", "true");
+                $(this).find('div:first').attr('aria-pressed', 'true');
+            });
+
+            $('li.expandable').each(function () {
+                $(this).attr("aria-expanded", "false");
+                $(this).find('div:first').attr('aria-pressed', 'false');
+            });
+
+            $('div.bullet').each(function () {
+                $(this).attr("aria-hidden", "true");
+            });
+
+            // set click event for chevron
+            $(document).on('click', '.navigation div.collapsible', function () {
+                ClosePageSubMenu($(this).parent());
+            });
+
+            $(document).on('click', '.navigation div.expandable', function () {
+                OpenPageSubMenu($(this).parent());
+            });
+
+            // set navigation grouping links
+            $(document).on('click', '.navigationgroup.collapsible > a', function () {
+                ClosePageSubMenu($(this).parent());
+            });
+
+            $(document).on('click', '.navigationgroup.expandable > a', function () {
+                OpenPageSubMenu($(this).parent());
+            });
+
+            //SW MYSTART DROPDOWNS
+            $(document).on('click', '.sw-mystart-dropdown', function () {
+                $(this).children(".sw-dropdown").css("display", "block");
+            });
+
+            $(".sw-mystart-dropdown").hover(function () { }, function () {
+                $(this).children(".sw-dropdown").hide();
+                $(this).blur();
+            });
+
+            //SW ACCOUNT DROPDOWN
+            $(document).on('click', '#sw-mystart-account', function () {
+                $(this).children("#sw-myaccount-list").show();
+                $(this).addClass("clicked-state");
+            });
+
+            $("#sw-mystart-account, #sw-myaccount-list").hover(function () { }, function () {
+                $(this).children("#sw-myaccount-list").hide();
+                $(this).removeClass("clicked-state");
+                $("#sw-myaccount").blur();
+            });
+
+            // set hover class for page and section navigation
+            $('.ui-widget.app.pagenavigation, .ui-widget.app.sectionnavigation').find('li > a').hover(function () {
+                $(this).addClass('hover');
+            }, function () {
+                $(this).removeClass('hover');
+            });
+
+            //set aria-label for home
+            $('#navc-HP > a').attr('aria-label', 'Home');
+
+            // set active class on channel and section
+            var activeChannelNavType = $('input#hidActiveChannelNavType').val();
+            if (activeChannelNavType == -1) {
+                // homepage is active
+                $('#navc-HP').addClass('active');
+            } else if (activeChannelNavType == 1) {
+                // calendar page is active
+                $('#navc-CA').addClass('active');
+            } else {
+                // channel is active - set the active class on the channel
+                var activeSelectorID = $('input#hidActiveChannel').val();
+                $('#navc-' + activeSelectorID).addClass('active');
+
+                // set the breadcrumb channel href to the channel nav href
+                $('li[data-bccID=' + activeSelectorID + '] a').attr('href', $('#navc-' + activeSelectorID + ' a').attr('href'));
+                $('li[data-bccID=' + activeSelectorID + '] a span').text($('#navc-' + activeSelectorID + ' a span').first().text());
+
+                // set the active class on the section
+                activeSelectorID = $('input#hidActiveSection').val();
+                $('#navs-' + activeSelectorID).addClass('active');
+
+                // set the breadcrumb section href to the channel nav href
+                $('li[data-bcsID=' + activeSelectorID + '] a').attr('href', $('#navs-' + activeSelectorID + ' a').attr('href'));
+                if ($('#navs-' + activeSelectorID + ' a').attr('target') !== undefined) {
+                    $('li[data-bcsID=' + activeSelectorID + '] a').attr('target', $('#navs-' + activeSelectorID + ' a').attr('target'));
+                }
+                $('li[data-bcsID=' + activeSelectorID + '] span').text($('#navs-' + activeSelectorID + ' a span').text());
+
+                if ($('.sw-directory-columns').length > 0) {
+                    $('ul.ui-breadcrumbs li:last-child').remove();
+                    $('ul.ui-breadcrumbs li:last-child a').replaceWith(function() { return $('span', this); });
+                    $('ul.ui-breadcrumbs li:last-child span').append(' Directory');
+                }
+            }
+        }); // end document ready
+
+        function OpenPageSubMenu(li) {
+            if (li.prop('tagName').toLowerCase() == "li") {
+                if (li.hasClass('expandable')) {
+                    li.removeClass('expandable').addClass('collapsible');
+                }
+                if (li.find('div:first').hasClass('expandable')) {
+                    li.find('div:first').removeClass('expandable').addClass('collapsible').attr('aria-pressed', 'true').attr('aria-label','Close Page Submenu');
+                }
+                li.find('ul:first').attr('aria-hidden', 'false').show();
+
+                li.attr("aria-expanded", "true");
+
+                PageNavigationStateCookie();
+            }
+        }
+
+        function ClosePageSubMenu(li) {
+            if (li.prop('tagName').toLowerCase() == "li") {
+                li.removeClass('collapsible').addClass('expandable');
+                li.find('div:first').removeClass('collapsible').addClass('expandable').attr('aria-pressed', 'false').attr('aria-label','Open Page Submenu');
+                li.find('ul:first').attr('aria-hidden', 'true').hide();
+
+                li.attr("aria-expanded", "false");
+
+                PageNavigationStateCookie();
+            }
+        }
+
+        function PageNavigationStateCookie() {
+            var strCookie = "";
+
+            $('.pagenavigation li > ul').each(function () {
+                var item = $(this).parent('li');
+                if (item.hasClass('collapsible') && !item.hasClass('no-bullet')) {
+                    strCookie += $(this).parent().attr('id') + '~';
+                }
+            });
+
+            SetCookie('SWPageNavState', strCookie);
+        }
+
+        function checkSidebar() {
+            $(".ui-widget-sidebar").each(function () {
+                if ($.trim($(this).html()) != "") {
+                    $(this).show();
+                    $(this).siblings(".ui-widget-detail").addClass("with-sidebar");
+                }
+            });
+        }
+
+        function removeBrokenImages() {
+            //REMOVES ANY BROKEN IMAGES
+            $("span.img img").each(function () {
+                if ($(this).attr("src") !== undefined && $(this).attr("src") != '../../') {
+                    $(this).parent().parent().show();
+                    $(this).parent().parent().siblings().addClass("has-thumb");
+                }
+            });
+        }
+
+        function LoadEventDetailUE(moduleInstanceID, eventDateID, userRegID, isEdit) {
+            (userRegID === undefined ? userRegID = 0 : '');
+            (isEdit === undefined ? isEdit = false : '');
+            OpenDialogOverlay("WindowMediumModal", { LoadType: "U", LoadURL: "https://www.kent.k12.wa.us//site/UserControls/Calendar/EventDetailWrapper.aspx?ModuleInstanceID=" + moduleInstanceID + "&EventDateID=" + eventDateID + "&UserRegID=" + userRegID + "&IsEdit=" + isEdit });
+        }
+
+        function RemoveCookie() {
+            // There are no sub page            
+            if ($('.pagenavigation li li').length == 0) {
+                //return false;
+                PageNavigationStateCookie();
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+
+        function AddOffCanvasMenuHeightForSiteNav() {
+            var sitenavulHeight = 0;
+
+            if ($('#sw-pg-sitenav-ul').length > 0) {
+                sitenavulHeight = parseInt($("#sw-pg-sitenav-ul").height());
+            }
+
+            var swinnerwrapHeight = 0;
+
+            if ($('#sw-inner-wrap').length > 0) {
+                swinnerwrapHeight = parseInt($("#sw-inner-wrap").height());
+            }
+
+            // 360px is abount 5 li height
+            if (sitenavulHeight + 360 >= swinnerwrapHeight) {
+                $("#sw-inner-wrap").height(sitenavulHeight + 360);
+            }
+        }
+
+        function AddOffCanvasMenuHeightForSelectSchool() {
+            var selectschoolulHeight = 0;
+
+            if ($('#sw-pg-selectschool-ul').length > 0) {
+                selectschoolulHeight = parseInt($("#sw-pg-selectschool-ul").height());
+            }
+
+            var swinnerwrapHeight = 0;
+
+            if ($('#sw-inner-wrap').length > 0) {
+                swinnerwrapHeight = parseInt($("#sw-inner-wrap").height());
+            }
+
+            // 360px is abount 5 li height
+            if (selectschoolulHeight + 360 >= swinnerwrapHeight) {
+                $("#sw-inner-wrap").height(selectschoolulHeight + 360);
+            }
+        }
+
+        $(document).ready(function () {
+            if ($("#sw-pg-sitenav-a").length > 0) {
+                $(document).on('click', '#sw-pg-sitenav-a', function () {
+                    if ($("#sw-pg-sitenav-ul").hasClass('sw-pgmenu-closed')) {
+                        AddOffCanvasMenuHeightForSiteNav();
+
+                        $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+                        $("#sw-pg-sitenav-ul").removeClass('sw-pgmenu-closed');
+                        $("#sw-pg-sitenav-ul").addClass('sw-pgmenu-open');
+                    } else {
+                        $("#sw-pg-sitenav-ul").removeClass('sw-pgmenu-open');
+                        $("#sw-pg-sitenav-ul").addClass('sw-pgmenu-closed');
+                    }
+                });
+
+                $(document).on('click', '#sw-pg-selectschool-a', function () {
+                    if ($("#sw-pg-selectschool-ul").hasClass('sw-pgmenu-closed')) {
+                        AddOffCanvasMenuHeightForSelectSchool();
+
+                        $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+                        $("#sw-pg-selectschool-ul").removeClass('sw-pgmenu-closed');
+                        $("#sw-pg-selectschool-ul").addClass('sw-pgmenu-open');
+                    } else {
+                        $("#sw-pg-selectschool-ul").removeClass('sw-pgmenu-open');
+                        $("#sw-pg-selectschool-ul").addClass('sw-pgmenu-closed');
+                    }
+                });
+
+                $(document).on('click', '#sw-pg-myaccount-a', function () {
+                    if ($("#sw-pg-myaccount-ul").hasClass('sw-pgmenu-closed')) {
+                        $("ul.sw-pgmenu-toplevel").removeClass('sw-pgmenu-open').addClass('sw-pgmenu-closed');
+                        $("#sw-pg-myaccount-ul").removeClass('sw-pgmenu-closed');
+                        $("#sw-pg-myaccount-ul").addClass('sw-pgmenu-open');
+                    } else {
+                        $("#sw-pg-myaccount-ul").removeClass('sw-pgmenu-open');
+                        $("#sw-pg-myaccount-ul").addClass('sw-pgmenu-closed');
+                    }
+                });
+
+                $(document).on('click', '.pg-list-bullet', function () {
+                    $(this).prev().toggle();
+
+                    if ($(this).hasClass('closed')) {
+                        AddOffCanvasMenuHeightForSiteNav();
+
+                        $(this).removeClass('closed');
+                        $(this).addClass('open');
+                    } else {
+                        $(this).removeClass('open');
+                        $(this).addClass('closed');
+                    }
+                });
+
+                $(document).on('mouseover', '#sw-pg-selectschool', function () {
+                    $("#sw-pg-selectschool-firstli").removeClass('sw-pg-selectschool-firstli-mouseout').addClass('sw-pg-selectschool-firstli-mouseover');
+                    $("#sw-pg-selectschool-firstli a").addClass('sw-pg-selectschool-firstli-a-mouseover').removeClass('sw-pg-selectschool-firstli-a-mouseout');
+                });
+
+                $(document).on('mouseout', '#sw-pg-selectschool', function () {
+                    $("#sw-pg-selectschool-firstli").removeClass('sw-pg-selectschool-firstli-mouseover').addClass('sw-pg-selectschool-firstli-mouseout');
+                    $("#sw-pg-selectschool-firstli a").addClass('sw-pg-selectschool-firstli-a-mouseout').removeClass('sw-pg-selectschool-firstli-a-mouseover');
+                });
+
+                $(document).on('mouseover', '#sw-pg-myaccount', function () {
+                    $("#sw-pg-myaccount-firstli").removeClass('sw-pg-myaccount-firstli-mouseout').addClass('sw-pg-myaccount-firstli-mouseover');
+                    $("#sw-pg-myaccount-firstli a").addClass('sw-pg-myaccount-firstli-a-mouseover').removeClass('sw-pg-myaccount-firstli-a-mouseout');
+                });
+
+                $(document).on('mouseout', '#sw-pg-myaccount', function () {
+                    $("#sw-pg-myaccount-firstli").removeClass('sw-pg-myaccount-firstli-mouseover').addClass('sw-pg-myaccount-firstli-mouseout');
+                    $("#sw-pg-myaccount-firstli a").addClass('sw-pg-myaccount-firstli-a-mouseout').removeClass('sw-pg-myaccount-firstli-a-mouseover');
+                });
+
+                $(document).on('mouseover', '#sw-pg-sitenav', function () {
+                    $("#sw-pg-sitenav-firstli").removeClass('sw-pg-sitenav-firstli-mouseout').addClass('sw-pg-sitenav-firstli-mouseover');
+                    $("#sw-pg-sitenav-firstli a").addClass('sw-pg-sitenav-firstli-a-mouseover').removeClass('sw-pg-sitenav-firstli-a-mouseout');
+                });
+
+                $(document).on('mouseout', '#sw-pg-sitenav', function () {
+                    $("#sw-pg-sitenav-firstli").removeClass('sw-pg-sitenav-firstli-mouseover').addClass('sw-pg-sitenav-firstli-mouseout');
+                    $("#sw-pg-sitenav-firstli a").addClass('sw-pg-sitenav-firstli-a-mouseout').removeClass('sw-pg-sitenav-firstli-a-mouseover');
+                });
+
+                $(document).on('mouseover', '#sw-pg-district', function () {
+                    $("#sw-pg-district-firstli").removeClass('sw-pg-district-firstli-mouseout').addClass('sw-pg-district-firstli-mouseover');
+                    $("#sw-pg-district-firstli a").addClass('sw-pg-district-firstli-a-mouseover').removeClass('sw-pg-district-firstli-a-mouseout');
+                });
+
+                $(document).on('mouseout', '#sw-pg-district', function () {
+                    $("#sw-pg-district-firstli").removeClass('sw-pg-district-firstli-mouseover').addClass('sw-pg-district-firstli-mouseout');
+                    $("#sw-pg-district-firstli a").addClass('sw-pg-district-firstli-a-mouseout').removeClass('sw-pg-district-firstli-a-mouseover');
+                });
+            }
+        });
+
+
+    </script>
+    <script src='https://www.kent.k12.wa.us/Static//GlobalAssets/Scripts/min/jquery-ui-1.12.0.min.js' type='text/javascript'></script>
+    <script src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/min/SW-UI.min.js" type='text/javascript'></script>
+    <script src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/jquery.sectionlayer.js" type='text/javascript'></script>
+    <script src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/Initialize_2500.js" type='text/javascript'></script>
+    <script src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/min/swfobject.min.js" type="text/javascript"></script>
+    <script src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/min/jquery.ajaxupload_2440.min.js" type="text/javascript"></script>
+
+    <!-- Begin swuc.CheckScript -->
+  <script type="text/javascript" src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/ThirdParty/json2.js"></script>
+  <script type="text/javascript" src="https://www.kent.k12.wa.us/Static/GlobalAssets/Scripts/CheckScript_2460.js"></script>
+<!-- End swuc.CheckScript -->
+
+
+    <!-- Server Load Time (04): 0.2199086 Seconds -->
+
+    
+
+    <!-- off-canvas menu enabled-->
+    
+
+    <!-- Ally Alternative Formats Configure START   -->
+    
+    <!-- Ally Alternative Formats Configure END     -->
+
+</body>
+</html>
